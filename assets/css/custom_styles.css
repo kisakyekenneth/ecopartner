@@ -1,0 +1,105 @@
+.office-info-item,
+.wpo-features-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.office-info-item:hover,
+.wpo-features-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.office-info-icon .icon img,
+.wpo-features-icon .icon img {
+  transition: transform 0.3s ease;
+}
+
+.office-info-item:hover .office-info-icon .icon img,
+.wpo-features-item:hover .wpo-features-icon .icon img {
+  transform: rotate(15deg);
+}
+
+/* Override the default overflow for the our clients */
+/* .owl-carousel .owl-stage-outer {
+  overflow: visible;
+} */
+
+/* Our clients image height */
+.wpo-testimonial-section .wpo-testimonial-items .wpo-testimonial-item img {
+  /* height: inherit; */
+  width: 100px;
+  height: 100px;
+}
+
+.wpo-testimonial-section .wpo-testimonial-items .owl-item {
+  width: min-content !important;
+  margin-right: 1px !important;
+}
+
+/* Shift the positioning */
+/* .wpo-testimonial-section .wpo-testimonial-items .owl-stage {
+  transform: translate3d(0px, 4px, 433px) !important;
+  transition: all 0.3s ease 0s !important;
+  width: max-content !important;
+} */
+
+.wpo-site-footer .contact-ft ul li {
+  color: white;
+}
+
+.wpo-breadcumb-sheq {
+  background: url(../images/commitment/SHEQ-Commitment-scaled.jpg) no-repeat
+    center / cover !important;
+}
+
+.wpo-breadcumb-about-us {
+  background: url(../images/about_Us.jpeg) no-repeat center / cover !important;
+}
+
+.wpo-breadcumb-service-env {
+  background: url(../images/service-environmental.jpg) no-repeat center / cover !important;
+}
+
+.wpo-breadcumb-service-health {
+  background: url(../images/services/health.jpg) no-repeat center / cover !important;
+}
+
+.wpo-breadcumb-service-iso {
+  background: url(../images/services/iso_mgt.jpg) no-repeat center / cover !important;
+}
+
+.wpo-breadcumb-service-social {
+  background: url(../images/services/Socio-Economic-Surveys-1.jpg) no-repeat
+    center / cover !important;
+}
+
+.wpo-breadcumb-all-projects {
+  background: url(../images/projects/Intergrated-Management-System-scaled.jpg)
+    no-repeat center / cover !important;
+}
+
+/* Project Overlay color code */
+.wpo-gallery-section .wpo-gallery-container .grid .wpo-gallery-item:before {
+  background: #559e99;
+}
+
+/* Custom project gallery styles */
+.wpo-gallery-section .eco-projects .wpo-gallery-container .grid img {
+  height: 260px;
+  object-fit: cover;
+}
+
+/* Footer styles */
+.wpo-site-footer .wpo-lower-footer {
+  background: #091f20;
+}
+
+/* Top bar styles */
+.topbar {
+  background: #30544f;
+}
+
+/* Accordion colors */
+.accordion-button:not(.collapsed) {
+  background-color: #559e99;
+}
